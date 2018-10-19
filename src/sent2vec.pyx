@@ -27,6 +27,7 @@ class stdvector_base:
     pass 
 
 
+
 cdef class vector_wrapper: 
     cdef: 
         vector[float] *buf 
